@@ -1,16 +1,22 @@
-/* a {
+a {
   text-align: center;
-} */
-
-h1{
-  font-size: 30px;
-  color: #333;
-  margin-top: -10px;
 }
 
+h1{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 100px;
+  color: #333;
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  s\
+  background-size: 100px 100px;
+  height: 300px;
+  margin-top: -50px;
+}
 
-
-/* #wrapper, button {
+#wrapper, button {
   width: 70px;
   height: 23px;
   border: 1px solid black;
@@ -20,6 +26,14 @@ h1{
   text-align: center;
   padding-top: 5px;
   color: black;
+
+}
+
+#title-image{
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .topnav {
@@ -45,4 +59,4 @@ h1{
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-} */
+}
