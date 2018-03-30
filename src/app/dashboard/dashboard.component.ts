@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Soda } from '../soda';
-import { SodaService } from '../soda.service';
+import { Item } from '../item';
+import { ItemService } from '../item.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,16 +8,16 @@ import { SodaService } from '../soda.service';
   styleUrls: [ './dashboard.component.css' ]
 })
 export class DashboardComponent implements OnInit {
-  sodas: Soda[] = [];
+  items: Item[] = [];
 
-  constructor(private sodaService: SodaService) { }
+  constructor(private itemService: ItemService) { }
 
   ngOnInit() {
-    this.getSodas();
+    this.getItems();
   }
 
-  getSodas(): void {
-    this.sodaService.getSodas()
-      .subscribe(sodas => this.sodas = sodas.slice(1, 100));
+  getItems(): void {
+    this.itemService.getItems()
+      .subscribe(items => this.items = items.slice(1, 100));
   }
 }
