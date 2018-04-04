@@ -2,7 +2,7 @@
   background-color: #CFD8DC !important;
   color: white;
 }
-.sodas {
+.items {
   margin: 0 0 2em 0;
   list-style-type: none;
   text-align: center;
@@ -23,7 +23,7 @@ h2{
   font-weight: bold;
 }
 
-.sodas li {
+.items li {
   cursor: pointer;
   text-align: center;
   background-color: #EEE;
@@ -43,20 +43,20 @@ h2{
     margin-left: 30px;
     margin-top: 5px;
 }
-.sodas li.selected:hover {
+.items li.selected:hover {
   background-color: #BBD8DC !important;
   color: white;
 }
-.sodas li:hover {
+.items li:hover {
   color: #607D8B;
   background-color: #DDD;
   left: .1em;
 }
-.sodas .text {
+.items .text {
   position: relative;
   top: -3px;
 }
-.sodas .badge {
+.items .badge {
   display: inline-block;
   font-size: small;
   color: white;

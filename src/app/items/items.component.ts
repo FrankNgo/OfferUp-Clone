@@ -30,8 +30,6 @@ export class ItemsComponent implements OnInit {
       this.items.push(item);
     });
   }
-
-
   delete(item: Item): void {
     this.items = this.items.filter(h => h !== item);
     this.itemService.deleteItem(item).subscribe();
