@@ -1,20 +1,4 @@
-a {
-  text-align: center;
-}
 
-h1{
-  padding-top: 100px;
-  text-align: center;
-  font-size: 100px;
-  color: #333;
-  background: #FC466B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  s\
-  background-size: 100px 100px;
-  height: 300px;
-  margin-top: -50px;
-}
 
 #wrapper, button {
   width: 70px;
@@ -26,27 +10,27 @@ h1{
   text-align: center;
   padding-top: 5px;
   color: black;
-
 }
 
-#title-image{
-  background: #FC466B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 600px;
+    width: 2000px;
 }
+
+
+
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
-  margin-top: -70px;
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
 }
