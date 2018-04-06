@@ -12,13 +12,18 @@
     <div class="listItems">
       <div class="grid grid-pad">
         <div *ngFor="let item of items | async" class="col-1-4" id="itemImages">
-          <div class="module item"(click)="goToDetailPage(item)" >
-            <img class="itemImage" src="{{item.image}}">
-            <h2 id="itemTitle">{{ item.title }}</h2>
+          <div class="module item" >
+            <img (click)="goToDetailPage(item)" class="itemImage" src="{{item.image}}">
+            <h2 (click)="goToDetailPage(item)" id="itemTitle">{{ item.title }}</h2>
             <h2 id="itemPrice">${{ item.price }}</h2>
             <h2 id="itemLocation">{{ item.location }}</h2>
             <hr>
             <h2 id="itemTitle">{{ item.username }}</h2>
+            <div *ngIf="currentRoute === '/admin'">
+              {{item.title}}
+              <hr>
+              <app-edit-item [selectedItem]="item"></app-edit-item>
+            </div>
           </div>
         </div>
       </div>

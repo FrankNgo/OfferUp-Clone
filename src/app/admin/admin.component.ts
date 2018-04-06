@@ -19,5 +19,4 @@ export class AdminComponent implements OnInit {
     var newItem: Item = new Item(itemImage,title, price, location, username);
         this.itemService.addItem(newItem);
   }
-
 }

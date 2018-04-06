@@ -14,6 +14,8 @@ import { FirebaseListObservable } from 'angularfire2/database';
 })
 export class FrontPageComponent implements OnInit {
   items: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
+
 
 
   constructor(
