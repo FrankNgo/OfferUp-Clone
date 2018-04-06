@@ -1,0 +1,24 @@
+{
+  "items": [{
+    "image": "https://d2j6tswx2otu6e.cloudfront.net/fZ5TdRXY6G2RHFJFAL-O5IJqvCs=/600x800/0674/06740e2053f440328ed287351b6075ad.jpg",
+    "title": "Samsung Verizon Tablets",
+    "price": "15",
+    "location": "19 miles · Portland, OR",
+    "username": "Patricia",
+    "id": "1"
+  }, {
+    "image": "https://d2j6tswx2otu6e.cloudfront.net/iyVe9-vesxtAV4geXhSou5uAgLc=/600x801/32c5/32c53668248246e0b4e1a5d87b213a5b.jpg",
+    "title": "2006 BMW 530i",
+    "price": "6,600",
+    "location": "17 miles · Vancouver, WA",
+    "username": "Jennifer",
+    "id": "2"
+  }, {
+    "image": "https://d2j6tswx2otu6e.cloudfront.net/MXZ3UC8h-KgQRi5ES20VGMgHl2Y=/300x344/ee0d/ee0d329ae5dd41c7b54529ab500c2aaf.jpg",
+    "title": "Apple ipad",
+    "price": "375",
+    "location": "12 miles · Portland, OR",
+    "username": "Megan",
+    "id": "3"
+  }]
+}

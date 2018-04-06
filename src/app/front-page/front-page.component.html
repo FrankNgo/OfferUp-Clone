@@ -21,12 +21,11 @@
       <div class="grid grid-pad">
         <div *ngFor="let item of items | async" class="col-1-4" id="itemImages">
           <div class="module item"(click)="goToDetailPage(item)" >
-            <img src="{{item.itemImage}}">
+            <img src="{{item.image}}">
             <h2 id="itemTitle">{{ item.title }}</h2>
-            <h4 id="itemDescription">{{ item.description }}</h4>
-            <h4 id="itemCategory">{{ item.category }}</h4>
-            <h4 id="itemNumbers">${{ item.moneySoFar }}</h4>
-            <h4 id="itemNumbers">{{ item.daysLeft }} days left</h4>
+            <h2 id="itemTitle">{{ item.price }}</h2>
+            <h2 id="itemTitle">{{ item.location }}</h2>
+            <h2 id="itemTitle">{{ item.username }}</h2>
           </div>
         </div>
       </div>
