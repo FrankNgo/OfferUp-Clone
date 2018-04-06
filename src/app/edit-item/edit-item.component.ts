@@ -24,4 +24,10 @@ export class EditItemComponent implements OnInit {
     this.itemService.updateItem(itemToUpdate);
   }
 
+  beginDeletingItem(itemToDelete){
+  if(confirm("Are you sure you want to delete this item?")){
+    this.itemService.deleteItem(itemToDelete);
+  }
+}
+
 }

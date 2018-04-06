@@ -29,4 +29,9 @@ export class ItemService {
       price: localUpdatedItem.price,
     });
   }
+
+  deleteItem(localItemToDelete) {
+    var itemEntryInFirebase = this.getItemById(localItemToDelete.$key);
+    itemEntryInFirebase.remove();
+  }
 }
