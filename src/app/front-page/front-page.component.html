@@ -23,8 +23,8 @@
           <div class="module item"(click)="goToDetailPage(item)" >
             <img src="{{item.image}}">
             <h2 id="itemTitle">{{ item.title }}</h2>
-            <h2 id="itemTitle">{{ item.price }}</h2>
-            <h2 id="itemTitle">{{ item.location }}</h2>
+            <h2 id="itemPrice">${{ item.price }}</h2>
+            <h2 id="itemLocation">{{ item.location }}</h2>
             <hr>
             <h2 id="itemTitle">{{ item.username }}</h2>
           </div>

@@ -1,35 +1,35 @@
-body{
+body {
   margin-left: -10px;
 }
 
 ul {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    font-family: "Benton Sans","Helvetica","sans-serif";
-    font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  font-size: 20px;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 #navLinks {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 4px 20px;
-    text-decoration: none;
-    font-size: 90%;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 20px;
+  text-decoration: none;
+  font-size: 90%;
 }
 
 #navLinks:hover {
-    cursor: pointer;
-    color: #9B59B6;
+  cursor: pointer;
+  color: #9B59B6;
 }
 
-#navLinks{
+#navLinks {
   padding-top: 15px;
 }
 
@@ -39,7 +39,7 @@ li {
   border-bottom: 1px solid gray;
 }
 
-#logo{
+#logo {
   font-size: 35px;
   height: 24px;
   width: 160px;
@@ -53,37 +53,41 @@ img.resize {
   margin-bottom: 45px;
   margin-top: -30px;
   z-index: -1;
-
 }
 
 img.resize {
-  max-width:100%;
-  max-height:60%;
+  max-width: 100%;
+  max-height: 60%;
 }
 
-#sideBar{
+#sideBar {
   padding-bottom: 20px;
-
 }
 
 [class*='col-'] {
   float: left;
 }
+
 *, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 h3 {
-  text-align: center; margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 0;
 }
+
 [class*='col-'] {
   padding-right: 20px;
   padding-bottom: 20px;
 }
+
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
+
 .grid {
   margin: 0;
 }
@@ -95,87 +99,79 @@ h3 {
 h4 {
   position: relative;
 }
-.module{
-  border: 1px solid #797D7F;
+
+.module {
+  border: 1px solid #D5D8DC;
   width: 222px;
   border-radius: 25px;
 }
+
 .module:hover {
   background-color: #EEE;
   cursor: pointer;
   color: #607d8b;
 }
+
 .grid-pad {
   padding: 10px 0;
 }
-.grid-pad > [class*='col-']:last-of-type {
+
+.grid-pad>[class*='col-']:last-of-type {
   padding-right: 20px;
 }
 
-#image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 295px;
-      font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
 
-#itemTitle{
+
+#itemTitle {
   font-size: 15px;
   line-height: 20px;
   color: #2a2a2a;
   padding-top: 10px;
   padding-left: 10px;
-      font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-#itemDescription{
-  font-size: 15px;
-  line-height: 18px;
-  color: grey;
-  padding-top: 10px;
+
+#itemPrice{
+padding: 8px 0;
+color: #969696;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+padding-left: 10px;
+font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#itemLocation{
+  color: #1e9182;
+  font-size: .8em;
+  line-height: 16px;
   padding-left: 10px;
-      font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-#itemCategory{
-  font-size: 15px;
-  line-height: 20px;
-  color: #2a2a2a;
-  padding-top: 10px;
-  padding-left: 10px;
-      font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
 
-#itemNumbers{
-  font-size: 15px;
-  line-height: 20px;
-  color: #2a2a2a;
-  padding-top: 10px;
-  padding-left: 10px;
-      font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
 
-.listItems{
+.listItems {
   padding-left: 150px;
 }
 
-.titleText{
+.titleText {
   left: 0;
-  position:absolute;
-  text-align:center;
+  position: absolute;
+  text-align: center;
   top: 150px;
   margin-left: 25%;
   width: 50%;
   color: white;
   padding: 10px;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 700;
 }
 
-img{
+img {
   width: 220px;
   max-height: 225px;
-    border-radius: 25px;
+  border-radius: 25px;
 }
