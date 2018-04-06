@@ -17,4 +17,8 @@ export class ItemService {
   addItem(newItem: Item) {
     this.items.push(newItem);
   }
+
+  getItemById(itemId: string) {
+    return this.database.object('items/' + itemId);
+  }
 }

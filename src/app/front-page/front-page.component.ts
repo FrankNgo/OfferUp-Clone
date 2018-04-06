@@ -24,7 +24,7 @@ export class FrontPageComponent implements OnInit {
       this.items = this.itemService.getItems();
     }
 
-  // goToDetailPage(clickedAlbum: Item) {
-  //   this.router.navigate(['items', clickedItem.id]);
-  // };
+    goToDetailPage(clickedItem) {
+      this.router.navigate(['items', clickedItem.$key]);
+    };
 }
