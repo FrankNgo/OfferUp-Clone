@@ -1,3 +1,46 @@
-<p>
-  admin works!
-</p>
+
+<div class="col-1-1">
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Add New Item to Sell</h3>
+      </div>
+      <div class="panel-body">
+
+        <div>
+          <label>Item Title:</label>
+          <br>
+          <input #newTitle>
+        </div>
+
+        <div>
+          <label>Item Price:</label>
+          <br>
+          <input #newPrice>
+        </div>
+
+        <div>
+          <label>Your Location:</label>
+          <br>
+          <input #newLocation>
+        </div>
+
+        <div>
+          <label>Username:</label>
+          <br>
+          <input #newUsername>
+        </div>
+
+        <div>
+          <label>Item Image URL:</label>
+          <br>
+          <input #newImage>
+        </div>
+
+        <br>
+        <button (click)="submitForm(newTitle.value, newPrice.value, newLocation.value, newUsername.value, newImage.value); newTitle.value=''; newPrice.value=''; newLocation.value=''; newUsername.value=''; newImage.value=''">Add</button>
+
+      </div>
+    </div>
+  </div>
+</div>

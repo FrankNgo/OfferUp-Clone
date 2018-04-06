@@ -6,20 +6,29 @@ ul {
   text-align: center;
   list-style-type: none;
   margin: 0;
-
+  overflow: hidden;
   font-family: "Benton Sans", "Helvetica", "sans-serif";
   font-size: 20px;
-  position: absolute;
-
 }
 
 li {
   float: left;
 }
 
+img.resize {
+  width: 3000px;
+  height: 625px;
+  margin-bottom: 45px;
+}
+
+img.resize {
+  max-width: 100%;
+  max-height: 60%;
+}
+
 #navLinks {
   display: block;
-  color: white;
+  color: black;
   padding: 5px 20px;
   text-decoration: none;
   font-size: 90%;
@@ -29,7 +38,7 @@ li {
   font-size: 35px;
   height: 24px;
   width: 160px;
-  color: white;
+  color: black;
   font-weight: 700;
   padding-right: 30px;
   text-decoration: none;
@@ -58,6 +67,21 @@ img.resize {
   background-repeat: no-repeat;
 }
 
-#sideBar {
-  padding-bottom: 20px;
+.titleText {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  margin-left: 25%;
+  width: 50%;
+  color: white;
+  padding: 10px;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+img {
+  width: 220px;
+  max-height: 225px;
 }
